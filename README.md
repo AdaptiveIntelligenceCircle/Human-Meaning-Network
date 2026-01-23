@@ -1,7 +1,14 @@
 # Human-Meaning-Network
 The second mission after intergration. 
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/4599ba3e-3680-420d-844d-9b3918ed2aaa" />
+<p align="center">
+  <img src="assets/HumanMeaningNetwork.png" alt="AIC Logo" width="1024" length = "1024"/>
+</p>
+
+<p align="center">
+  <strong> Human Meaning Network </strong><br>
+  Decentralized nodes • Ethical scaling • Planetary readiness
+</p>
 
 
 ## Definition
