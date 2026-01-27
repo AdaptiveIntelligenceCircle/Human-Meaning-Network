@@ -1,6 +1,6 @@
 #pragma once 
 
-#include "ibcs_trace_adapter.h"
+#include "../introspection/ibcs_trace_adapter.h"
 
 namespace hmn 
 {
