@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std; 
 
-namespace hmn :: distributed :: storage 
+namespace hmn :: distributed :: edgeos 
 {
     class LocalStore 
     {
