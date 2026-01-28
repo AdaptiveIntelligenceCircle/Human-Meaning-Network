@@ -2,10 +2,13 @@
 #include <iostream>
 using namespace std;
 
-class HMNNode
+namespace hmn :: distributed :: depin
 {
-    public: 
-    void start(); 
-    void stop(); 
-    bool ethical_check(); 
-}; 
+    class Node 
+    {
+        public: 
+        bool ethical_check(); 
+        void stop(); 
+        bool start();
+    }; 
+}
