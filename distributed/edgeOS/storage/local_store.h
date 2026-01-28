@@ -2,10 +2,13 @@
 #include <iostream>
 using namespace std; 
 
-class LocalStore 
+namespace hmn :: distributed :: storage 
 {
-    public: 
-    void write_encrypted(const string &key, const string &data);
+    class LocalStore 
+    {
+        public: 
+        void write(const string &key, const string &data);
 
-    string read_encrypted(const string &key); 
-};
+        string read(const string &key); 
+    };
+}
