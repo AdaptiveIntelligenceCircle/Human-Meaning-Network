@@ -3,7 +3,7 @@
 
 using namespace std;
 
-namespace hmn 
+namespace hmn :: distributed :: adaptive
 {
     enum class AdaptiveSignal
     {
@@ -18,5 +18,6 @@ namespace hmn
         public:
         AdaptiveAgent observe(const string &group_state); 
         void adjust(AdaptiveSignal signal); 
+        
     }; 
 }
