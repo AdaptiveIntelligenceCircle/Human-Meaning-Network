@@ -28,9 +28,9 @@ namespace hmn :: journaling
                 });
                 entry.moral_tension_score += 0.1; 
                 }
+            }
         }
+        if (entry.moral_tension_score > 1.0)
+        entry.moral_tension_score = 1.0; 
     }
-    if (entry.moral_tension_score > 1.0)
-    entry.moral_tension_score = 1.0; 
-}
 }
