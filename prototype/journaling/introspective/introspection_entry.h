@@ -6,7 +6,7 @@
 #include <string> 
 using namespace std;
 
-namespace hmn :: jounarling 
+namespace hmn :: journaling 
 {
     using timestamp = uint64_t; 
     using EntityID = string; 
